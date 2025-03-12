@@ -13,60 +13,46 @@
         h1 {
             color: #333;
         }
-        .image-container {
+        .link-container {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
             gap: 20px;
             margin-top: 20px;
         }
-        .image-container img {
-            width: 250px;
-            height: auto;
-            border: 2px solid #ddd;
-            border-radius: 8px;
+        .link-container a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
+        }
+        .link-container a:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
 <body>
     <h1>Random Forest Decision Trees</h1>
-    <p>Click on the images to view full-size trees!</p>
+    <p>Click on the links to view full-size trees!</p>
 
-    <div class="image-container">
-        <!-- Image Links for T5 Trees -->
-        <a href="https://drive.google.com/uc?export=view&id=1AxcVfh6WKfP8M2ZWlvLTQN5UJVoza8d7" target="_blank">
-            <img src="https://drive.google.com/uc?export=view&id=1AxcVfh6WKfP8M2ZWlvLTQN5UJVoza8d7" alt="Random Forest Tree T5 - 4">
-        </a>
-        <a href="https://drive.google.com/uc?export=view&id=13pS9vEmWmNWbxC0736le-SF4h_DQDiWk" target="_blank">
-            <img src="https://drive.google.com/uc?export=view&id=13pS9vEmWmNWbxC0736le-SF4h_DQDiWk" alt="Random Forest Tree T5 - 3">
-        </a>
-        <a href="https://drive.google.com/uc?export=view&id=1lDl9rwKmTNIHaqQ5MN4WUrMzv_PqPyF0" target="_blank">
-            <img src="https://drive.google.com/uc?export=view&id=1lDl9rwKmTNIHaqQ5MN4WUrMzv_PqPyF0" alt="Random Forest Tree T5 - 2">
-        </a>
-        <a href="https://drive.google.com/uc?export=view&id=1u78QK2pnKBedp7yRCN1WdOQR4zo2858l" target="_blank">
-            <img src="https://drive.google.com/uc?export=view&id=1u78QK2pnKBedp7yRCN1WdOQR4zo2858l" alt="Random Forest Tree T5 - 1">
-        </a>
-        <a href="https://drive.google.com/uc?export=view&id=1GdKSGIyTlN69FdGYh5fokhFkODPmJv2r" target="_blank">
-            <img src="https://drive.google.com/uc?export=view&id=1GdKSGIyTlN69FdGYh5fokhFkODPmJv2r" alt="Random Forest Tree T5 - 0">
-        </a>
+    <div class="link-container">
+        <!-- Links for T5 Trees -->
+        <a href="https://drive.google.com/uc?export=view&id=1AxcVfh6WKfP8M2ZWlvLTQN5UJVoza8d7" target="_blank">Random Forest Tree T5 - 4</a>
+        <a href="https://drive.google.com/uc?export=view&id=13pS9vEmWmNWbxC0736le-SF4h_DQDiWk" target="_blank">Random Forest Tree T5 - 3</a>
+        <a href="https://drive.google.com/uc?export=view&id=1lDl9rwKmTNIHaqQ5MN4WUrMzv_PqPyF0" target="_blank">Random Forest Tree T5 - 2</a>
+        <a href="https://drive.google.com/uc?export=view&id=1u78QK2pnKBedp7yRCN1WdOQR4zo2858l" target="_blank">Random Forest Tree T5 - 1</a>
+        <a href="https://drive.google.com/uc?export=view&id=1GdKSGIyTlN69FdGYh5fokhFkODPmJv2r" target="_blank">Random Forest Tree T5 - 0</a>
     
-        <!-- Image Links for T3 Trees -->
-        <a href="https://drive.google.com/uc?export=view&id=1BYudJ1UlyNoHlLzZLkNKqwt6cHlf2LGz" target="_blank">
-            <img src="https://drive.google.com/uc?export=view&id=1BYudJ1UlyNoHlLzZLkNKqwt6cHlf2LGz" alt="Random Forest Tree T3 - 4">
-        </a>
-        <a href="https://drive.google.com/uc?export=view&id=1FbIrepb2G73xLKwj9g_6U2nx7Bia_i3U" target="_blank">
-            <img src="https://drive.google.com/uc?export=view&id=1FbIrepb2G73xLKwj9g_6U2nx7Bia_i3U" alt="Random Forest Tree T3 - 3">
-        </a>
-        <a href="https://drive.google.com/uc?export=view&id=1-f8RyhmSalBcq9BsE8p0CinbQcjdv1A2" target="_blank">
-            <img src="https://drive.google.com/uc?export=view&id=1-f8RyhmSalBcq9BsE8p0CinbQcjdv1A2" alt="Random Forest Tree T3 - 2">
-        </a>
-        <a href="https://drive.google.com/uc?export=view&id=1IW_hCClz2ddEiO1bWfMmjU0MEZfwdkrP" target="_blank">
-            <img src="https://drive.google.com/uc?export=view&id=1IW_hCClz2ddEiO1bWfMmjU0MEZfwdkrP" alt="Random Forest Tree T3 - 1">
-        </a>
-        <a href="https://drive.google.com/uc?export=view&id=12J9ODT9i3mYALJEaz7XjsRAcun2OaynM" target="_blank">
-            <img src="https://drive.google.com/uc?export=view&id=12J9ODT9i3mYALJEaz7XjsRAcun2OaynM" alt="Random Forest Tree T3 - 0">
-        </a>
+        <!-- Links for T3 Trees -->
+        <a href="https://drive.google.com/uc?export=view&id=1BYudJ1UlyNoHlLzZLkNKqwt6cHlf2LGz" target="_blank">Random Forest Tree T3 - 4</a>
+        <a href="https://drive.google.com/uc?export=view&id=1FbIrepb2G73xLKwj9g_6U2nx7Bia_i3U" target="_blank">Random Forest Tree T3 - 3</a>
+        <a href="https://drive.google.com/uc?export=view&id=1-f8RyhmSalBcq9BsE8p0CinbQcjdv1A2" target="_blank">Random Forest Tree T3 - 2</a>
+        <a href="https://drive.google.com/uc?export=view&id=1IW_hCClz2ddEiO1bWfMmjU0MEZfwdkrP" target="_blank">Random Forest Tree T3 - 1</a>
+        <a href="https://drive.google.com/uc?export=view&id=12J9ODT9i3mYALJEaz7XjsRAcun2OaynM" target="_blank">Random Forest Tree T3 - 0</a>
     </div>
 </body>
 </html>
